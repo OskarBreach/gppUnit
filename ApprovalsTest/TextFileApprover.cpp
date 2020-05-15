@@ -118,6 +118,9 @@ namespace gppUnit {
 			std::string str;
 			// Read the next line from File until it reaches the end.
 			while(std::getline(ifs, str)) {
+				if (str.size() && str.back() == '\r') {
+					str = str.substr(0, str.size() - 1);
+				}
 				ret += str + '\n';
 			}
 			return ret;
