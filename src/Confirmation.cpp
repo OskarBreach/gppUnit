@@ -25,9 +25,9 @@ THE SOFTWARE.
 #include "AssertException.h"
 #include "ReportResult.h"
 #include "TestResult.h"
-#include "Matchers\MatcherResult.h"
-#include "ApprovalsTest\SimpleNamer.h"
-#include "ApprovalsTest\TextFileApprover.h"
+#include "Matchers/MatcherResult.h"
+#include "ApprovalsTest/SimpleNamer.h"
+#include "ApprovalsTest/TextFileApprover.h"
 
 namespace gppUnit {
 	void ConfirmationBase::Result(const TestResult& result) {

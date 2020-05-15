@@ -22,9 +22,9 @@ THE SOFTWARE.
 #ifndef TESTMETHODTIMERS_H_5119E4AA_7A61_49FF_80C1_048CC165F549
 #define TESTMETHODTIMERS_H_5119E4AA_7A61_49FF_80C1_048CC165F549
 
-#include "src\MethodTimer.h"
-#include "src\MethodCaller.h"
-#include "src\TimeReport.h"
+#include "src/MethodTimer.h"
+#include "src/MethodCaller.h"
+#include "src/TimeReport.h"
 
 #include "AutoRun.h"
 

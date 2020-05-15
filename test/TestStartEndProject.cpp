@@ -19,8 +19,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
-#include "src\TestCase.h"
-#include "src\ProjectDescription.h"
+#include "src/TestCase.h"
+#include "src/ProjectDescription.h"
 
 #include "TestUtilities.h"
 

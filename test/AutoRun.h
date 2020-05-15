@@ -22,10 +22,10 @@ THE SOFTWARE.
 #ifndef AUTORUN_H_B72BA09A_909E_4283_855E_75BDE1121091
 #define AUTORUN_H_B72BA09A_909E_4283_855E_75BDE1121091
 
-#include "src\TestCaseBase.h"
-#include "src\AutoTest.h"
-#include "Matchers\ProxyTypeSpecializations.h"
-#include "Matchers\MatcherSpecializations.h"
+#include "src/TestCaseBase.h"
+#include "src/AutoTest.h"
+#include "Matchers/ProxyTypeSpecializations.h"
+#include "Matchers/MatcherSpecializations.h"
 
 namespace Auto {
 	class TestCase: public gppUnit::TestCaseBase, gppUnit::AutoTest {};

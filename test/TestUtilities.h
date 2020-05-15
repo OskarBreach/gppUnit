@@ -24,10 +24,10 @@ THE SOFTWARE.
 
 #include "AutoRun.h"
 
-#include "src\Notification.h"
-#include "src\AutoMethodTimer.h"
-#include "src\TestCase.h"
-#include "src\ProjectContext.h"
+#include "src/Notification.h"
+#include "src/AutoMethodTimer.h"
+#include "src/TestCase.h"
+#include "src/ProjectContext.h"
 
 #include <sstream>
 

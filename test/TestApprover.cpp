@@ -1,8 +1,8 @@
-#include "ApprovalsTest\TextFileApprover.h"
+#include "ApprovalsTest/TextFileApprover.h"
 
-#include "ApprovalsTest\SimpleNamer.h"
+#include "ApprovalsTest/SimpleNamer.h"
 
-#include "src\TypeInformation.h"
+#include "src/TypeInformation.h"
 
 #include "AutoRun.h"
 

@@ -20,7 +20,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 #include "TestMatchersHelpers.h"
-#include "Matchers\SubStringMatchers.h"
+#include "Matchers/SubStringMatchers.h"
 
 namespace TestCollectionContains {
 	using Utilities::MatcherHelper;

@@ -24,7 +24,7 @@ THE SOFTWARE.
 #include "AutoMethodTimer.h"
 
 #include <sys/time.h>
-
+#include <time.h>
 
 namespace {
 	typedef long long time_interval;

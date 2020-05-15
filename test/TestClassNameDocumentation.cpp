@@ -1,6 +1,6 @@
-#include "src\ClassDocumentation.h"
+#include "src/ClassDocumentation.h"
 
-#include "src\AutoRunner.h"
+#include "src/AutoRunner.h"
 
 #include "TestUtilities.h"
 

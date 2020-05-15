@@ -19,10 +19,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
-#include "src\MethodDescription.h"
-#include "src\ReportResult.h"
-#include "src\TestResult.h"
-#include "src\AssertException.h"
+#include "src/MethodDescription.h"
+#include "src/ReportResult.h"
+#include "src/TestResult.h"
+#include "src/AssertException.h"
 
 #include "TestUtilities.h"
 

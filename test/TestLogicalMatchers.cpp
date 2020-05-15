@@ -20,7 +20,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 #include "TestMatchersHelpers.h"
-#include "Matchers\LogicalMatchers.h"
+#include "Matchers/LogicalMatchers.h"
 
 typedef std::vector<std::string> strvec;
 

@@ -23,7 +23,7 @@ THE SOFTWARE.
 
 #include "CompositeNotification.h"
 
-#include "ApprovalsTest\CommandLineOptions.h"
+#include "ApprovalsTest/CommandLineOptions.h"
 
 namespace gppUnit {
 	class MethodTimer;

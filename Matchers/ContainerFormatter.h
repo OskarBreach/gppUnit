@@ -22,7 +22,7 @@ THE SOFTWARE.
 #ifndef CONTAINERFORMATTER_H_388AF56A_C371_41E7_B6A1_5C285DC157AB
 #define CONTAINERFORMATTER_H_388AF56A_C371_41E7_B6A1_5C285DC157AB
 
-#include "TableFormatting\TableFormatting.h"
+#include "TableFormatting/TableFormatting.h"
 
 namespace gppUnit {
 	template<class STREAM, class DELIM>
