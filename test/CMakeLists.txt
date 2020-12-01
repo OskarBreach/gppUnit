@@ -18,9 +18,19 @@ source_group("Header files" FILES ${headers})
 
 set(sources ${c_sources} ${cpp_sources} ${headers})
 
-add_executable(test ${sources})
+add_executable(gppUnitTest ${sources})
 
-target_include_directories(test PUBLIC ${PROJECT_SOURCE_DIR})
-target_include_directories(test PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(gppUnitTest PUBLIC ${PROJECT_SOURCE_DIR})
+target_include_directories(gppUnitTest PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
-target_link_libraries(test PUBLIC ApprovalsTest Matchers TableFormatting src)
+target_link_libraries(gppUnitTest PUBLIC gppUnit)
+
+file(GLOB_RECURSE approved_files CONFIGURE_DEPENDS "*.approved.txt")
+foreach(approved_file ${approved_files})
+	configure_file(${approved_file} ${CMAKE_CURRENT_BINARY_DIR}/ COPYONLY)
+endforeach()
+
+file(GLOB_RECURSE check_file_contents_files CONFIGURE_DEPENDS "*CheckFileContents.txt")
+foreach(check_file_contents_file ${check_file_contents_files})
+	configure_file(${check_file_contents_file} ${CMAKE_CURRENT_BINARY_DIR}/ COPYONLY)
+endforeach()

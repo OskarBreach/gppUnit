@@ -9,8 +9,8 @@ source_group("Header files" FILES ${headers})
 
 set(sources ${c_sources} ${cpp_sources} ${headers})
 
-add_library(Matchers ${sources})
+add_library(gppUnitMatchers ${sources})
 
-target_include_directories(Matchers PRIVATE ${PROJECT_SOURCE_DIR})
+target_include_directories(gppUnitMatchers PRIVATE ${PROJECT_SOURCE_DIR})
 
-target_link_libraries(Matchers PRIVATE TableFormatting)
+target_link_libraries(gppUnitMatchers PRIVATE gppUnitTableFormatting)

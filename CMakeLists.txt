@@ -10,5 +10,6 @@ add_subdirectory(ApprovalsTest)
 add_subdirectory(Matchers)
 add_subdirectory(src)
 add_subdirectory(TableFormatting)
+add_subdirectory(gppUnit)
 
 add_subdirectory(test)

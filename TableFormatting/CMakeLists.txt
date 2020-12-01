@@ -9,4 +9,4 @@ source_group("Header files" FILES ${headers})
 
 set(sources ${c_sources} ${cpp_sources} ${headers})
 
-add_library(TableFormatting ${sources})
+add_library(gppUnitTableFormatting ${sources})

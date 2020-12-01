@@ -24,8 +24,8 @@ source_group("Header files" FILES ${headers})
 
 set(sources ${c_sources} ${cpp_sources} ${headers})
 
-add_library(src ${sources})
+add_library(gppUnitSrc ${sources})
 
-target_include_directories(src PRIVATE ${PROJECT_SOURCE_DIR})
+target_include_directories(gppUnitSrc PRIVATE ${PROJECT_SOURCE_DIR})
 
-target_include_directories(src PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(gppUnitSrc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
